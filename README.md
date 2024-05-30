@@ -1,21 +1,16 @@
-# SmartCarePro_Assessment README
+# SmartCarePro_Assessment 
 
-## Overview
+## Introduction
 
 **SmartCarePro_Assessment** is a healthcare management application designed to streamline the process of patient assessment and care. This guide will help you understand how to navigate and use the key features of the application.
 
-## Table of Contents
+## Test covered area
 
-- Getting Started
 - Login
 - Select Facility
 - Search NRC Date
 - Attend to Patient
 - Add Vital Signs
-
-## Getting Started
-
-To begin using SmartCarePro_Assessment, follow the steps outlined below.
 
 ## Login
 
@@ -53,3 +48,22 @@ To begin using SmartCarePro_Assessment, follow the steps outlined below.
    - Respiratory Rate
    - Other relevant metrics
 5. After entering the data, click the **Save** or **Submit** button to record the vital signs.
+
+## Use Selenium for Automation
+
+To automate the processes within SmartCarePro_Assessment, you can use Selenium. Below is a basic example to get you started.
+
+## Prerequisites
+
+- Java Development Kit (JDK)
+- Maven or gradle
+- WebDriver compatible with your browser (e.g., ChromeDriver for Google Chrome)
+
+## Setup
+
+1. Clone this repository to your local machine:
+https://github.com/etu296/SmartCarePro_Assesment.git
+2. Navigate to the project directory:
+cd SmartCarePro_Assesment
+3. Install dependencies 
+4.Ensure that your WebDriver is set up correctly and compatible with your browser.
